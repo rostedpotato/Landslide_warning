@@ -1,0 +1,144 @@
+version 3
+run Wireless-0-20250425-09:18:45-10116
+attr configname Wireless
+attr datetime 20250425-09:18:45
+attr datetimef 20250425-091845
+attr experiment Wireless
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network C193055
+attr processid 10116
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config image-path ../inet4.5/images
+config description "Wireless sensor network with LoRa and CSMA/CA"
+config network C193055
+config sim-time-limit 1000s
+config debug-on-errors true
+config *.channelType "\"DatarateChannel\""
+config *.datarate 1Mbps
+config *.delay 100ms
+config *.visualizer.sceneVisualizer.descriptionFigure "\"title\""
+config *.visualizer.sceneVisualizer.description "Wireless sensor network with LoRa and CSMA/CA"
+
+par C193055.sensor1.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor1.out.channel disabled false
+attr mutable ""
+par C193055.sensor1.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor2.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor2.out.channel disabled false
+attr mutable ""
+par C193055.sensor2.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor3.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor3.out.channel disabled false
+attr mutable ""
+par C193055.sensor3.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor4.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor4.out.channel disabled false
+attr mutable ""
+par C193055.sensor4.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor5.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor5.out.channel disabled false
+attr mutable ""
+par C193055.sensor5.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor6.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor6.out.channel disabled false
+attr mutable ""
+par C193055.sensor6.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor7.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor7.out.channel disabled false
+attr mutable ""
+par C193055.sensor7.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor8.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor8.out.channel disabled false
+attr mutable ""
+par C193055.sensor8.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor9.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor9.out.channel disabled false
+attr mutable ""
+par C193055.sensor9.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor10.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor10.out.channel disabled false
+attr mutable ""
+par C193055.sensor10.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor11.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor11.out.channel disabled false
+attr mutable ""
+par C193055.sensor11.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor12.out.channel typename "\"ned.DelayChannel\""
+par C193055.sensor12.out.channel disabled false
+attr mutable ""
+par C193055.sensor12.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.esp32_1.out.channel typename "\"ned.DelayChannel\""
+par C193055.esp32_1.out.channel disabled false
+attr mutable ""
+par C193055.esp32_1.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.esp32_2.out.channel typename "\"ned.DelayChannel\""
+par C193055.esp32_2.out.channel disabled false
+attr mutable ""
+par C193055.esp32_2.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.esp32_3.out.channel typename "\"ned.DelayChannel\""
+par C193055.esp32_3.out.channel disabled false
+attr mutable ""
+par C193055.esp32_3.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.server.out.channel typename "\"ned.DelayChannel\""
+par C193055.server.out.channel disabled false
+attr mutable ""
+par C193055.server.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C193055.sensor1 typename "\"C193055_HHJN\""
+par C193055.sensor2 typename "\"C193055_HHJN\""
+par C193055.sensor3 typename "\"C193055_HHJN\""
+par C193055.sensor4 typename "\"C193055_HHJN\""
+par C193055.sensor5 typename "\"C193055_HHJN\""
+par C193055.sensor6 typename "\"C193055_HHJN\""
+par C193055.sensor7 typename "\"C193055_HHJN\""
+par C193055.sensor8 typename "\"C193055_HHJN\""
+par C193055.sensor9 typename "\"C193055_HHJN\""
+par C193055.sensor10 typename "\"C193055_HHJN\""
+par C193055.sensor11 typename "\"C193055_HHJN\""
+par C193055.sensor12 typename "\"C193055_HHJN\""
+par C193055.esp32_1 typename "\"C193055_HHJN\""
+par C193055.esp32_2 typename "\"C193055_HHJN\""
+par C193055.esp32_3 typename "\"C193055_HHJN\""
+par C193055.server typename "\"C193055_HHJN\""
+par C193055.user typename "\"C193055_HHJN\""
+par C193055 typename "\"C193055\""
+
